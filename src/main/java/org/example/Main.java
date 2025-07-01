@@ -51,17 +51,14 @@ public class Main {
 
 
     public static double calculateCircleArea(double radius) {
-        double area = Math.PI * radius * radius;
-        return area;
+        return Math.PI * radius * radius;
     }
 
     public static double calculateTriangleArea(double base, double height) {
-        double area = 0.5 * base * height;
-        return area;
+        return 0.5 * base * height;
     }
 
     public static double calculateRectangleArea(double length, double width) {
-        double area = length * width;
-        return area;
+        return length * width;
     }
 }
